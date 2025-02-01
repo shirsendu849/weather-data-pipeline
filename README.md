@@ -43,6 +43,8 @@ The DAG orchestrates the following steps:
    - Create and paste the following Lambda functions from the script provided:
      - **weather_data_extract**
      - **weather_data_transformation**
+   - Add the layer provided into the functions in order to use `boto3` and other python modules.
+   - Modify IAM role to interact with S3 and atttached with the functions
 
 5. **Configure S3 Buckets**  
    - Create S3 bucket named **weather-batch-data** having two prefixes:

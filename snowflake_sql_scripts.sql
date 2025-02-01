@@ -61,6 +61,8 @@ SHOW STORAGE INTEGRATIONS;
 -- Description about Storage Intgration Instance
 DESC STORAGE INTEGRATION weather_data_s3_storage_integration;
 
+-- Place the <STORAGE_AWS_IAM_USER_ARN> and <STORAGE_AWS_EXTERNAL_ID> in the AWS IAM role to build trust relationship
+
 -- Creating File Format
 CREATE FILE FORMAT IF NOT EXISTS weather_db.weather_schema.aws_s3_file_format
     TYPE = 'PARQUET'

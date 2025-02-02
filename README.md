@@ -28,6 +28,10 @@ The DAG orchestrates the following steps:
 10. **Load Data to Snowflake**: **SnowflakeOperator** tasks load the data into Snowflake tables.
 11. **Quality Check**: SnowflakeOperator tasks perform quality checks by counting records in Snowflake tables.
 
+## DAG Diagram
+
+![weather_etl_diagram](https://github.com/shirsendu849/weather-data-pipeline/blob/main/weather_etl_dag_diagram.png)
+
 ## How to Set Up
 
 1. **Create an AWS Account**  

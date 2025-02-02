@@ -1,9 +1,13 @@
 ## Overview
 
-This project creates an end-to-end data pipeline that extracts, transforms, and loads weather data using AWS services. The pipeline is orchestrated using Apache Airflow and automates the entire process, from data extraction to loading the data into Snowflake.
+In this project, we will build an end-to-end data pipeline using **AWS** services and orchestrate it with **Airflow**. We will extract one year of historical weather data from the free website [Open Meteo](https://open-meteo.com/en/docs/historical-weather-api), perform transformations, and load it into a Snowflake table. The entire process will be fully automated.
+
+## Prerequisities
+- AWS Free Tier Account
+- Airflow Setup on AWS EC2 (Refer to this [GitHub repo](https://github.com/shirsendu849/airflow_setup_repo) for installation)
+- Snowflake Trial Account
 
 ## Tools and Technologies
-
 - **Python**
 - **SQL**
 - **Apache Airflow**

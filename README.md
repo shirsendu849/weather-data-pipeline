@@ -1,6 +1,10 @@
 ## Overview
 
-In this project, we will build an end-to-end data pipeline using **AWS** services and orchestrate it with **Airflow**. We will extract one year of historical weather data from the free website [Open Meteo](https://open-meteo.com/en/docs/historical-weather-api), perform transformations, and load it into a Snowflake table. The entire process will be fully automated.
+We will design an ETL pipeline around AWS services and orchestrate it with Airflow. This project will:
+- Extract one year of historical weather data based on start date, end date, latitude, and longitude using [Open Meteo's](https://open-meteo.com/en/docs/historical-weather-api) free API.
+- Perform data transformations to structure and clean the data.
+- Load the processed data into Snowflake, ensuring a fully automated workflow.
+- perform transformations, and load it into a Snowflake table. The entire process will be fully automated.
 
 ## Prerequisites
 

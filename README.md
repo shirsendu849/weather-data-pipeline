@@ -12,6 +12,9 @@ This project creates an end-to-end data pipeline that extracts, transforms, and 
 - **AWS EC2**
 - **Snowflake**
 
+## Architecture Diagram
+![Project Architecture Diagram](https://github.com/shirsendu849/weather-data-pipeline/blob/main/weather_etl_architecture.png)
+
 ## DAG Workflow
 
 The DAG orchestrates the following steps:
